@@ -1,0 +1,516 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+/*------------- navbar ------------------ */
+#navbar{
+    margin:2rem 5rem;
+}
+#logoNavbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#logoNavbar img{
+    height: 5rem;
+}
+.emphasisText{
+    color: #f11a1a;
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-top: 7px;
+}
+#logoInfoNavbar{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#topicNavbar{
+    margin: 1rem 0rem;
+    background-color: #3299e3;
+    padding: 1rem;
+}
+#topicNavbar ul{
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    align-items: center;
+}
+#topicNavbar ul li a{
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+}
+.invertImg{
+  filter: invert(1);
+  height: 13px;
+}
+
+/* ------------------------------ main ----------------------- */
+#main{
+  margin: 0rem 5rem;
+}
+/* #homeImg{} */
+#homeInfo{
+  display: flex;
+  margin: 3rem 0rem;
+}
+#aboutUS{
+  width: 60%;
+  padding: 0rem 3rem 2rem 0rem;
+}
+.aboutUsPara{
+  margin: 1.5rem 0rem 1rem 0rem;
+}
+.topicText{
+  border-left: 9px solid #3299e3;
+  padding: 10px 25px;
+  background-color: #ededed;
+  display: inline-block;
+}
+.topicText:hover{
+  border-left: 15px solid #3299e3;
+}
+#information{
+  margin-left: 2rem;
+}
+.informationSidebar{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 1.5rem 0rem;
+}
+.informationSidebarImg{
+  height: 3rem;
+  width: 4rem;
+  border-bottom: 3px solid #3299e3;
+  border-right: 3px solid #3299e3;
+  border-radius: 5px;
+  object-fit: cover;
+  margin-right: 1.2rem;
+}
+.linkBtn{
+  text-decoration: none;
+  border: 1px solid #229ff9;
+  background-color: #229ff9;
+  color: white;
+  border-radius: 5px;
+  padding: 4px;
+}
+.linkBtn:hover{
+  background-color: white;
+  color: #229ff9;
+}
+.officerInfoDiv{
+  margin: 2rem 0rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.officerDetail {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.officerDetail img{
+  height: 10rem;
+  width: 10rem;
+  object-fit: cover;
+  border-radius: 50%;
+}
+.officerDetailInfo{
+  background-color: #3299e3;
+  padding: 12px;
+  min-width: 10rem;
+  color: white;
+  text-align: center;
+  border-radius: 12px;
+  border-bottom: 5px solid #095c99;
+  border-right: 5px solid #095c99;
+  margin: 1rem 0rem 3rem 0rem;
+}
+/* ------------------------------ Appointment Page ----------------------- */
+#mainAppointmentForm{
+  margin: 3rem 0rem;
+}
+#mainAppointmentFormDiv{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 0.75rem 0rem 3rem 0rem;
+}
+#mainAppointmentFormDivImage {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+#mainAppointmentFormDivImage label span{
+  position: absolute;
+  bottom: 3.5rem;
+  left: 32%;
+  color: white;
+  font-size: 1.5rem;
+}
+#mainAppointmentFormDivImage label img{
+  height: 15rem;
+  border-radius: 1rem;
+}
+#datefield{
+  font-size: 2rem;
+  border: none;
+  background-color: #3299e3;
+  color: white;
+  border-radius: 0.5rem;
+  padding: 0.75rem;
+  outline: none;
+}
+.topicTxt{
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+#mainAppointmentFormDiv div{
+  font-size: 1.5rem;
+}
+.formBtn{
+  border:2px solid #246fa5;
+  background-color: #246fa5;
+  border-radius: 10px;
+  padding: 10px;
+  font-size: 1.25rem;
+  color: white;
+}
+.formBtn:hover{
+  border:2px solid #246fa5;
+  background-color: white;
+  color: #246fa5;
+}
+.addressInput{
+  width: 100%;
+  padding: 1rem;
+  font-size: 1.2rem;
+  border: none;
+  border-bottom: 2px solid;
+  outline: none;
+}
+
+
+/* ------------------------------ Complain Page ----------------------- */
+#mainComplainForm{
+  margin: 3rem 0rem;
+  display: flex;
+  flex-direction: column;
+  width: 40%
+}
+#mainComplainDiv{
+  display: flex;
+  align-items: center;
+}
+#selectComplain{
+  margin: 1rem 0rem;
+  display: flex;
+  align-items: center;
+}
+#selectComplain select{
+  background-color: #3299e3;
+  border: none;
+  padding: 5px;
+  font-size: 1rem;
+  outline: none;
+  margin-left: 1rem;
+  color: white;
+}
+#selectComplain label{
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+#mainComplainForm textarea{
+  font-size: 1rem;
+  padding: 7px;
+  border: 2px solid #3299e3;
+  outline-color: #3299e3;
+  margin-bottom: 1rem;
+}
+
+
+
+/* ------------------------------ Login Page ----------------------- */
+#loginBody{
+background-color: #b4e0ff;
+min-height: 100vh;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+#loginForm{
+  background-color: white;
+}
+#loginFormBtn button{
+width:50%;
+}
+#loginFormBtn{
+  display: flex;
+}
+#loginFormDiv{
+  display: flex;
+  align-items: center;
+}
+.signIn,.signUp{
+  padding: 10px 15px;
+}
+.formField label{
+  font-size: 1.2rem;
+  margin-bottom: 5px;
+}
+.formField input{
+  border: none;
+  border-bottom: 2px solid gray;
+  font-size: 1rem;
+  outline: none;
+}
+.formField{
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+}
+.loginFormBtn{
+  border: 1px solid #229ff9;
+  background-color: #229ff9;
+  font-size: 1rem;
+  padding: 5px;
+  color: white;
+}
+.imgForm{
+  height: 14px;
+  margin-right: 5px;
+}
+.showHide{
+  display: none;
+}
+
+/* ------------------------------ User Page ----------------------- */
+/*------ when empty -------- */
+#shop-topic{
+  margin: 1rem 0rem;
+  font-size: 2rem;
+  color: black;
+}
+  /*--------- when empty ----------- */
+  
+  #profile-section{
+    margin: 5rem;
+  }
+  #div-profile-section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 4rem;
+  }
+  #div-profile-section img{
+    width: 15rem;
+    height: 15rem;
+    margin-right: 5rem;
+    border-radius: 1.5rem;
+    object-fit: cover;
+  }
+  #detail-div-profile-section {
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 48px;
+    color: #026195;
+  }
+  #detail-div-profile-section p{
+    margin-bottom: 0.5rem;
+  }
+  #detail-info-div-profile-section {
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 48px;
+    color: #0797e7;
+  }
+  #submitbtn-info-div-profile-section{
+    display: flex;
+  }
+  #button-submit-info-div-profile-section {
+    margin-right: 50px;
+    padding: 10px 15px;
+}
+  #title-info-div-profile-section {
+    display: flex;
+    background-color: #45ACE5;
+    color: #c3c6c7;
+  }
+  #info-title-info-div-profile-section {
+    color: #ffffff;
+  }
+  #title-info-div-profile-section p {
+    padding: 0.75rem;
+    font-size: 28px;
+    line-height: 45px;
+    font-weight: 700;
+    margin: 0rem 3rem;
+  }
+  #title-info-div-profile-section p:hover{
+    color: #f1ecec;
+    cursor: pointer;
+  }
+  #information-info-div-profile-section{
+    margin: 2.5rem 0rem;
+  }
+  #customers {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  #customers td, #customers th {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  #customers tr:hover {
+    background-color: #c2e4f7;
+  }
+  #customers th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #026195;
+    color: white;
+  }
+  
+  #myPost-info-div-profile-section{
+    display: none;
+  }
+  .profile-delete-btn form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 8px;
+  }
+  .allProfileBtn {
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+    background-color: #22a0e4;
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    cursor: pointer;
+}
+  .allProfileBtn:hover{
+    color: #22a0e4;
+    background-color: rgb(255, 255, 255);
+  }
+.item-cart-shop{
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+}
+.img-item-cart-shop div{
+  margin-top: 1rem;
+  display: flex;
+  justify-content: space-evenly;
+}
+.img-item-cart-shop{
+  border: 2px solid;
+  padding: 10px;
+  margin: 10px;
+  width: 20rem;
+  border-radius: 2%;
+  border-color: #3299e3;
+  text-align: center;
+}
+
+/*-------------------- footer -----------------------*/
+#footer{
+  margin: 2rem 5rem 0rem 5rem;
+  padding: 2rem 3.5rem;
+  background-color: #3299e3;
+}
+#footerInfo{
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+}
+#usefulLinks ul,#contactLinks ul{
+  list-style: none;
+  margin-top: 1rem;
+}
+.h1Text{
+  font-size: 1.5rem;
+  color: white;
+  font-weight: 600;
+}
+#usefulLinks ul li a,#contactLinks ul li p{
+  text-decoration: none;
+  color: white;
+  padding: 5px 0px;
+}
+#contactLinks ul li{
+  display: flex;
+  align-items: center;
+}
+#contactLinks ul li img{
+  height: 17px;
+  margin-right: 10px;
+  filter: invert(1);
+}
+#copyrightInfo{
+  border-top: 1px solid white;
+  margin-top: 2rem;
+  padding-top: 1rem;
+}
+
+/*-------------------- captcha -----------------------*/
+.captchaInput {
+    padding: 12px 20px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+.captchaBtn{
+  background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 12px 30px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+canvas{
+  /*prevent interaction with the canvas*/
+  pointer-events:none;
+}
+
+/* ---------------- image crousal ------------ */
+
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  height: 28rem;
+  width: 15rem;
+  /* opacity: 0.8; */
+  align-items: center;
+  position: relative;
+}
+.imageCrousalPara{
+  position: absolute;
+  bottom: 3rem;
+  left: 2rem;
+  font-size: 5.5rem;
+  color: white;
+}
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 2rem;
+}
